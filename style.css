@@ -1,0 +1,426 @@
+@font-face {
+    font-family: 'Apercu';
+    src: url('./fonts/apercu-font-family/Apercu-Regular.ttf') format('truetype');
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'butler';
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Apercu';
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 100px;
+}
+
+.logo {
+    width: 130px;
+    height: 67px;
+
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.list {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.btn {
+    padding: 12px 13.5px 12px 13.5px;
+    font-size: 14px;
+    font-weight: 400px;
+    background-color: #000000;
+    border: 2px solid white;
+    border-radius: 25px;
+    color: white;
+    margin-top: -10px;
+}
+
+.btn1 {
+    padding: 12px 13.5px 12px 13.5px;
+    font-size: 14px;
+    font-weight: 400px;
+    background-color: #ED1C24;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    margin-top: -10px;
+}
+
+i {
+    font-size: 25px;
+    margin-left: 10px;
+}
+
+.arrow {
+    font-size: 15px;
+    background-color: white;
+    color: #DD4E57;
+    margin-left: 5px;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.main-container {
+    padding: 50px 100px 200px 100px;
+}
+
+.container {
+    display: flex;
+    padding-top: 20px;
+    justify-content: center;
+}
+
+.cards {
+    width: 226px;
+    padding: 0 10px;
+    margin-left: 30px;
+}
+
+.cards>img {
+    background-color: white;
+    height: 130px;
+    width: 100%;
+    object-fit: contain;
+    padding: 10px 10px;
+    border-radius: 5px;
+
+}
+
+.btn-cards {
+    padding: 10px 20px;
+    border-radius: 28px;
+    background-color: black;
+    border: 1px solid gray;
+    color: white;
+    margin-top: 20px;
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+.arrow-rotate{
+    transform: rotate(320deg); 
+    margin-left: 10px;
+}
+.btn-cards-table {
+    padding: 15px 40px;
+    border-radius: 25px;
+    background-color: black;
+    color: white;
+    border: 1px solid gray;
+    margin-top: 20px;
+}
+
+.container1 {
+    /* width: 100%; */
+    padding: 50px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #0F0F0F;
+}
+
+/* Header Styling */
+.header h1 {
+    font-size: 52px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+h2 {
+    font-size: 52px !important;
+    font-weight: lighter;
+    margin-bottom: 20px;
+}
+
+.header p {
+    color: #ccc;
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+
+/* Flexbox Layout for Image and Text */
+.content-box {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 30px;
+    text-align: left;
+}
+
+.image-side {
+    flex: 1;
+    min-width: 300px;
+}
+
+.image-side img {
+    width: 100%;
+    border: 2px solid #333;
+}
+
+.text-side {
+    flex: 1;
+    min-width: 300px;
+}
+
+/* Text Styling */
+.location-tag {
+    color: #ED1C24;
+    letter-spacing: 0.48em;
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.text-side h3 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.text-side h3 span {
+    font-weight: lighter;
+}
+
+.address,
+.phone {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #B7B7B7;
+}
+
+.address i,
+.phone i {
+    font-size: 16px;
+    padding: 3px;
+}
+
+/* Button Styling */
+.btn2 {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 13px 25px;
+    border: 1px solid gray;
+    border-radius: 25px;
+    color: white;
+    font-size: 0.9rem;
+    transition: 0.3s;
+    background-color: #111;
+}
+
+.btn2 i {
+    margin-left: 10px;
+    background: #ffffff;
+    padding: 2px 7px;
+    border-radius: 50%;
+    color: #e63946;
+}
+
+.style-two {
+    margin-top: 50px;
+}
+
+
+
+.cards2 {
+    padding: 0;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.card-content{
+    flex-grow: 1;
+
+}
+
+.cards h4 {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.cards2 h1 {
+    margin: 0;
+}
+
+.cards2 img {
+    padding: 0;
+    width: 100%;
+    object-fit: cover;
+    height: 250px;
+}
+
+.last-card {
+    width: 33%;
+    flex: none;
+}
+
+
+.village {
+    margin-top: -10px;
+    margin-bottom: 30px;
+}
+
+.container4 {
+    padding-left: 0;
+}
+
+.container4 img {
+    border: none;
+}
+
+.cards3 {
+    flex: 1;
+    height: 190px;
+    background-color: white;
+    border-radius: 6px;
+    align-items: center;
+    text-align: center;
+    padding: 24px;
+}
+
+.cards3 img {
+    height: 50px;
+    width: 50px;
+    padding: 0;
+    margin: 0;
+
+}
+
+.container4-btn {
+    background-color: #28a745;
+}
+
+.container4-btn:hover {
+    border: 1px solid #28a745;
+    background-color: #000000;
+}
+
+.container4-btn i {
+    color: #28a745;
+}
+
+.opening {
+    font-size: 10px;
+}
+
+h5 {
+    color: #000000;
+    font-size: 21px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.cards3 p {
+    color: #000000;
+    margin: 0;
+    font-size: 21px;
+    font-weight: 400;
+
+}
+
+
+.container5 {
+    padding: 0 100px 70px 100px;
+
+}
+
+.opening-soon {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.container6 {
+    display: flex;
+    text-align: left;
+    padding: 50px 100px;
+    color: rgb(255 255 255 / 70%);
+    background-color: #0F0F0F;
+}
+
+.footer {
+    margin-right: 50px;
+}
+
+.footer p {
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+
+.footer-list {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-list li {
+    padding-bottom: 16px;
+}
+
+.footer h3 {
+    color: white;
+}
+
+.icon {
+    color: white;
+    display: flex;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.icon i {
+    background-color: #ED1C24;
+    padding: 10px;
+    border-radius: 17px;
+    margin: 0;
+    font-size: 17px;
+}
+
+.section1 {
+    width: 50%;
+}
+
+.section2 {
+    width: 20%;
+}
+
+.section3 {
+    width: 20%;
+}
+
+.sectio4 {
+    margin: 0;
+}
+
+.section2-img {
+    margin: 20px 0;
+}
+
+
+.down-footer {
+    display: flex;
+    text-align: right;
+    padding: 0 100px;
+    justify-content: space-between;
+}
+
+
+button:hover {
+    cursor: pointer;
+
+}
