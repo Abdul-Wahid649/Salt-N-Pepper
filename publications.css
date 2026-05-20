@@ -1,0 +1,57 @@
+.navbar {
+    border-bottom: 1px solid rgb(41, 40, 40);
+}
+
+.book-container{
+    padding: 60px 100px;
+}
+
+.books {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.book-image {
+    flex: 1;
+    border: 1px solid #222222;
+    height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.book-image img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    transition: transform 0.3s ease;
+}
+
+.book-image:hover img {
+    transform: scale(1.05);
+}
+.branches{
+    padding: 0 100px 60px 100px;
+}
+.branches h1{
+    font-size: 32px;
+    margin-top: 32px;
+    margin-bottom: 24px;
+}
+.branches h3{
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 12px;
+}
+
+.branches p{
+    font-size: 14px;
+    color: rgb(255 255 255 / 70%);
+    margin-bottom: 10px;
+}

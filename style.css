@@ -134,7 +134,7 @@ i {
 
 .container1 {
     /* width: 100%; */
-    padding: 50px;
+    padding: 50px 100px;
     margin: 0 auto;
     text-align: center;
     background-color: #0F0F0F;

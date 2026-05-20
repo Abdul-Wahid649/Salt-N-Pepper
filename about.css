@@ -1,17 +1,62 @@
+body{
+    background-color: #000000;
+}
 
+.navbar{
+    border-bottom: 1px solid rgb(41, 40, 40);
+}
 .introduction{
-    padding: 0 100px 60px 100px;
+    padding: 60px 100px 60px 100px;
 }
 .intro-heading{
     font-size: 40px;
     font-weight: 500;
     margin-bottom: 32px;
 }
+.intro-heading h2{
+    margin: 0;
+}
+.intro-heading h3{
+    margin: 0;
+    font-size: 32px;
+}
 
-.intro-para{
+.intro-para, p{
     color: rgb(255 255 255 / 70%);
     font-size: 16px;
     font-weight: 400;
     line-height: 21px;
     letter-spacing: 0.5px;
+}
+.container1{
+    background-color: #000000;
+}
+.content-text{
+    align-items: start;
+}
+.text h3{
+    margin-top: 0;
+}
+.text p{
+    margin-top: 0;
+    line-height: 18px;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.content-box{
+    margin-top: 50px;
+}
+
+.gujranwala{
+    margin-top: 0;
+    letter-spacing: normal;
+}
+.text p i{
+    margin: 0;
+}
+
+.main-container{
+    padding-bottom: 20px;
 }
