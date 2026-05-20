@@ -1,0 +1,102 @@
+@font-face {
+    font-family: 'Apercu';
+    src: url('./fonts/apercu-font-family/Apercu-Regular.ttf') format('truetype');
+}
+
+
+/* --- Franchise Section Styling --- */
+.franchise-container {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 60px 100px;
+    padding-top: 0;
+    text-align: left;
+}
+
+.franchise-container h2 {
+    font-size: 40px;
+    font-family: 'Apercu', serif; 
+    text-align: center;
+    margin-bottom: 40px;
+    font-weight: 500;
+}
+
+.franchise-form {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.form-row {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 25px;
+}
+
+.group {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.group label {
+    font-size: 14px;
+    color: rgb(255 255 255 / 70%); 
+    margin-bottom: 8px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+
+.input {
+    position: relative;
+    width: 100%;
+}
+
+.input input {
+    width: 100%;
+    padding: 12px 40px 12px 15px; 
+    background-color: #ffffff;
+    border: none;
+    border-radius: 6px;
+    color: #000000;
+    font-size: 16px;
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+.submit-row {
+    margin-top: 35px;
+}
+
+.btn-submit {
+    background-color: #FFC107; 
+    color: #ffffff;
+    border: none;
+    padding: 18px 55px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-submit:hover{
+    background-color: #FFCA2C;
+}
+
+/* --- Mobile Responsiveness --- */
+@media screen and (max-width: 768px) {
+    .franchise-container {
+        padding: 40px 20px;
+    }
+    
+    .form-row {
+        flex-direction: column; /* Mobile pr 1 column ho jayega */
+        gap: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .franchise-container h2 {
+        font-size: 30px;
+    }
+}
