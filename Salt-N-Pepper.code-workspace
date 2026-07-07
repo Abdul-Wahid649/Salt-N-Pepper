@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "Salt-N-Pepper",
+			"path": "."
+		},
+		{
+			"name": "butler",
+			"path": "../../Downloads/butler"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Salt-N-Pepper"
+	}
+}
